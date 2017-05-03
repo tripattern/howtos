@@ -71,7 +71,11 @@ $ git push # pushes deletion to the remote repo as well
 
 ### Reset and store credentials
 ```
-# INSECURE METHOD!!!!!
+$ vim ~/.netrc
+###
+machine example.com login USER password PASSWORD
+###
+# INSECURE METHOD!!!!! NASTY!!!
 # http://stackoverflow.com/questions/28104581/how-secure-is-storing-password-with-git/28104587#28104587
 $ git config credential.helper store
 # Then run a push or pull command...
