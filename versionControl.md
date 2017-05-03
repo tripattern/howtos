@@ -69,7 +69,7 @@ $ git branch -d <branch name> # deletes a branch
 $ git push # pushes deletion to the remote repo as well
 ```
 
-### Simple Bash script for updating sub-modules
+### Simple Bash script for updating sub-folders
 ```
 #!/bin/bash
 ls -d */.git | while read subfolder ; do (
