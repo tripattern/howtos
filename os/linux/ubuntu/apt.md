@@ -1,4 +1,9 @@
+## List of all installed packages
+```
+$ sudo apt list --installed
+```
 
+## Update versus Upgrade
 * From: http://askubuntu.com/questions/222348/what-does-sudo-apt-get-update-do
 ```
 In a nutshell, apt-get update doesn't actually install new versions of software.
