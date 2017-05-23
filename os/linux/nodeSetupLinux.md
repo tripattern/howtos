@@ -10,7 +10,10 @@ $ sudo apt-get install nodejs npm
 ```
 sudo npm cache clean -f
 sudo npm install -g n
-sudo n stable
-sudo n 4.2.1 # if you want to use a specific version
-sudo ln -sf /usr/local/n/versions/node/<VERSION>/bin/node /usr/bin/node 
+sudo n stable # sudo n 4.2.1 - if you want to use a specific version
+sudo npm update -g
+sudo ln -sf /usr/local/n/versions/node/<VERSION>/bin/node /usr/bin/node # for ubuntu
+# Check new versions
+sudo node -v
+sudo npm -v
 ```
