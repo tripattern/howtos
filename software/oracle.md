@@ -19,3 +19,8 @@ $ export ORACLE_HOME=/usr/lib/oracle/12.1/client64
 $ export PATH=$PATH:$ORACLE_HOME/bin
 $ sudo ln -s /usr/include/oracle/12.1/client64 $ORACLE_HOME/include
 ```
+
+## IntelliJ
+* https://www.jetbrains.com/help/idea/2017.1/database-tool-window.html
+* https://www.jetbrains.com/help/idea/2017.1/database-console.html
+* https://stackoverflow.com/questions/41899741/how-to-connect-intellij-to-oracle
