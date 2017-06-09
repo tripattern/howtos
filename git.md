@@ -6,6 +6,11 @@
 * [Git Links](#git-links)
 * [Changes](#changes)
 
+
+## Books
+* https://git-scm.com/book/en/v2
+* http://ftp.newartisans.com/pub/git.from.bottom.up.pdf
+
 ## Version Control
 ### Build a numbering system
 * http://semver.org/
