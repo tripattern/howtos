@@ -1,4 +1,4 @@
-# Version Control
+# Git
 ## Table of Contents
 * [Version Control](#version-control)
   * [Build a numbering system](#build-a-numbering-system)
