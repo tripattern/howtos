@@ -12,7 +12,7 @@ $ cat shareServer.sh
     # 0+0 means top left corner
     # share the top left screen
     # must put in the resolution of top left screen
-    x11vnc -nobell -clip 3840x2160+0+0 "$@"
+    x11vnc -nobell -clip 1920x1200+0+0 "$@"
     ---
 $ cat shareView.sh
     ---
