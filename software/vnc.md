@@ -17,7 +17,8 @@ $ cat shareServer.sh
 $ cat shareView.sh
     ---
     #!/bin/bash
-    # creates the screen to share
+    # client of screen server created
+    # this is what you share as a screen in web apps...
     vncviewer :0 -noraiseonbeep -viewonly "$@"
     ---
 ```
