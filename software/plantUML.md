@@ -9,3 +9,5 @@
 
 ## References
 * http://plantuml.com
+* http://www.sparxsystems.com/products/ea/
+* http://www-03.ibm.com/software/products/en/rosemod
