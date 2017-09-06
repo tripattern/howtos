@@ -36,6 +36,33 @@ $ openssl req -text -in fd.csr -noout
 * https://www.feistyduck.com/library/openssl-cookbook/online/ch-openssl.html#creating-csrs-from-existing-certificates
 ```
 $ openssl x509 -x509toreq -in fd.crt -out fd.csr -signkey fd.key
+# Note: Unless you’re using some form of public key pinning and wish to continue using the existing key, it’s best practice to generate a new key every time you apply for a new certificate
+```
+
+## CSR Generation with a file
+```
+## file contents: fd.cnf###################################
+[req]
+prompt = no
+distinguished_name = dn
+req_extensions = ext
+input_password = PASSPHRASE
+
+[dn]
+CN = www.feistyduck.com
+emailAddress = webmaster@feistyduck.com
+O = Feisty Duck Ltd
+L = London
+C = GB
+
+[ext]
+subjectAltName = DNS:www.feistyduck.com,DNS:feistyduck.com
+# NOTE: Other extensions can be found at: /etc/ssl/openssl.cnf
+#       A standard one is the v3_ca
+
+############################################################
+
+$ openssl req -new -config fd.cnf -key fd.key -out fd.csr
 ```
 
 
@@ -44,3 +71,4 @@ $ openssl x509 -x509toreq -in fd.crt -out fd.csr -signkey fd.key
 * https://www.feistyduck.com/library/openssl-cookbook/
 * https://en.wikipedia.org/wiki/RSA_(cryptosystem)
 * https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm
+* https://en.wikipedia.org/wiki/Transport_Layer_Security
