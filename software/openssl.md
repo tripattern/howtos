@@ -9,3 +9,5 @@ $ openssl rsa -in fd.key -pubout -out fd-public.key
 
 ## References
 * https://www.feistyduck.com/library/openssl-cookbook/
+* https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+* https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm
