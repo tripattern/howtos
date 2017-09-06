@@ -52,6 +52,27 @@ doc/*.txt
 doc/**/*.pdf
 ```
 
+## Remove files from git
+```
+# Standard removal of file
+$ git rm README # removes local copy and stages removal from git
+$ git commit -m "removed readme"
+
+$ git rm log/\*.log # This command removes all files that have the .log extension in the log/ directory.
+$ git rm \*~ # This command removes all files whose names end with a ~.
+
+# If you added a file by accident to git and want to ignore it do the following
+$ git rm --cached README # keeps local copy, but removes from git
+```
+
+## Move file
+```
+$ git mv README.md README
+# Same as
+$ mv README.md README
+$ git rm README.md
+$ git add README
+```
 
 ### Standard local repository settings
 ```
