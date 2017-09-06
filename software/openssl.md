@@ -80,6 +80,15 @@ $ openssl req -new -x509 -days 3650 -extensions v3_ca \
 # http://www.freebsdmadeeasy.com/tutorials/freebsd/create-a-ca-with-openssl.php
 ```
 
+## Verify
+```
+# Cetificate
+$ openssl x509 -text -noout -in fd.crt
+# Public Key
+$ openssl rsa -inform PEM -pubin -in fd-public.key -noout # RSA specific
+$ openssl pkey -inform PEM -pubin -in fd-public.key -noout # General public key
+
+```
 
 
 ## References
