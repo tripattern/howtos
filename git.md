@@ -109,6 +109,12 @@ ls -d */.git | while read subfolder ; do (
  ) ; done
 ```
 
+## Diffs
+```
+$ git diff # shows UNSTAGED changes
+$ git diff --staged # shows STAGED changes
+```
+
 ### Reset and store credentials
 ```
 $ vim ~/.netrc
