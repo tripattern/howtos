@@ -65,6 +65,21 @@ subjectAltName = DNS:www.feistyduck.com,DNS:feistyduck.com
 $ openssl req -new -config fd.cnf -key fd.key -out fd.csr
 ```
 
+## Certificate generation (signing)
+* https://www.feistyduck.com/library/openssl-cookbook/online/ch-openssl.html#signing-your-own-certificates
+```
+$ openssl x509 -req -days 365 -in fd.csr -signkey fd.key -out fd.crt
+```
+
+## One liner to create private key and certificate
+```
+$ openssl req -new -x509 -days 365 -keyout fd.key -out fd.crt -config fd.cnf
+$ openssl req -new -x509 -days 3650 -extensions v3_ca \ 
+-keyout private/cakey.pem -out cacert.pem \
+-config /etc/ssl/openssl.cnf
+# http://www.freebsdmadeeasy.com/tutorials/freebsd/create-a-ca-with-openssl.php
+```
+
 
 
 ## References
