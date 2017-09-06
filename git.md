@@ -68,6 +68,7 @@ $ git status # status of the files in the local repo
 $ git add <filename> # track/stage an untracked file - prep file for next commit
 $ git add '*.txt' # track/stage all changed text files also use for files you have done the merging on
 $ git commit -m 'commit message' # commit files that are being tracked /have been staged with a message
+$ git commit -a -m "comment" # adds all changed files and commits (skips add step)
 $ git log # look at a log of your commits
 $ git remote add origin https://github.com/try-git/try_git.git # link local repo to remote repo at given url and name it 'origin'
 $ git push -u origin master # push local commits in master branch to origin (remote repo)
