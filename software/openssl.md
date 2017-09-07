@@ -208,7 +208,11 @@ $ openssl req -new -config root-ca.conf -out root-ca.csr -keyout private/root-ca
 
 # Create self signed certificate
 $ openssl ca -selfsign -config root-ca.conf -in root-ca.csr -out root-ca.crt -extensions ca_ext
+> y
+> y
 ```
+* Check certificate has been added to the db (plain text file)
+  * db/index
 
 
 ## References
