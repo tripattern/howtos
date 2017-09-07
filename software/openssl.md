@@ -115,7 +115,7 @@ $ openssl rand -hex 16  > db/serial
 $ echo 1001 > db/crlnumber     
 ```
 * Create root CA config file
- * Filename: root-ca.cnf
+ * Filename: root-ca.conf
 ```
 [default]
 name                    = root-ca
