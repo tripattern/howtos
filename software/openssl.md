@@ -223,3 +223,4 @@ $ openssl ca -selfsign -config root-ca.conf -in root-ca.csr -out root-ca.crt -ex
 * http://shop.oreilly.com/product/9780596002701.do
   * Network Security with OpenSSL Cryptography for Secure Communications
 * https://www.phildev.net/ssl/creating_ca.html
+* https://jamielinux.com/docs/openssl-certificate-authority/index.html
