@@ -99,14 +99,23 @@ $ openssl pkey -inform PEM -pubin -in fd-public.key -noout # General public key
 
 ## Create a Root CA
 * https://www.feistyduck.com/library/openssl-cookbook/online/ch-openssl.html#creating-a-root-ca
-* Choose a home for all CA files
-  * /opt/rootca
-* Create two sub-directories
-  * /opt/rootca/certs
-    * Holds all copies of certificates we issue
-  * /opt/rootca/private
-    * Holds copies of the CA certificates private key - never allow viewable, modifible by anyone else on the system
-*     
+* Setup directory structue for CA
+```
+# Make a home for all CA files
+$ mkdir root-ca
+$ cd root-ca
+$ mkdir certs db private 
+# NOTE: 
+## certs holds all copies of certificates we issue
+## private holds private key for CA
+## db is used for the certificate database (index)
+$ chmod 700 private # Never allow viewable or modifible by anyone else on the system
+$ touch db/index
+$ openssl rand -hex 16  > db/serial
+$ echo 1001 > db/crlnumber     
+```
+* Create root CA config file
+ * Filename: root-ca.cnf
 ```
 [default]
 name                    = root-ca
@@ -191,6 +200,14 @@ extendedKeyUsage        = OCSPSigning
 noCheck                 = yes
 keyUsage                = critical,digitalSignature
 subjectKeyIdentifier    = hash
+```
+* root ca generation
+```
+# Generate key and CSR
+$ openssl req -new -config root-ca.conf -out root-ca.csr -keyout private/root-ca.key
+
+# Create self signed certificate
+$ openssl ca -selfsign -config root-ca.conf -in root-ca.csr -out root-ca.crt -extensions ca_ext
 ```
 
 
