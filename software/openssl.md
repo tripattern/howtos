@@ -1,6 +1,7 @@
 # OpenSSL
 ## Configuration
 * man config
+* man ca
 * Ubuntu
   * /etc/ssl/openssl.cnf
 * Other
