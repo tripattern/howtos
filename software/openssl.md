@@ -1,4 +1,10 @@
 # OpenSSL
+## Configuration
+* man config
+* Ubuntu
+  * /etc/ssl/openssl.cnf
+* Other
+  * /etc/openssl.cnf
 ## Create Keys
 * https://www.feistyduck.com/library/openssl-cookbook/online/ch-openssl.html#openssl-key-generation
 ```
