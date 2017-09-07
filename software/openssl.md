@@ -103,3 +103,5 @@ $ openssl pkey -inform PEM -pubin -in fd-public.key -noout # General public key
 * https://en.wikipedia.org/wiki/RSA_(cryptosystem)
 * https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm
 * https://en.wikipedia.org/wiki/Transport_Layer_Security
+* http://shop.oreilly.com/product/9780596002701.do
+  * Network Security with OpenSSL Cryptography for Secure Communications
