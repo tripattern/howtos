@@ -222,3 +222,4 @@ $ openssl ca -selfsign -config root-ca.conf -in root-ca.csr -out root-ca.crt -ex
 * https://en.wikipedia.org/wiki/Transport_Layer_Security
 * http://shop.oreilly.com/product/9780596002701.do
   * Network Security with OpenSSL Cryptography for Secure Communications
+* https://www.phildev.net/ssl/creating_ca.html
