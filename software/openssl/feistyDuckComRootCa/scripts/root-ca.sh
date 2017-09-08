@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 echo "ROOT CA: Creating a ROOT CA..."
 echo "ROOT CA: Creating base files and directory structure..."

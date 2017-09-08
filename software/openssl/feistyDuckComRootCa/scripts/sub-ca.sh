@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 echo "SUB CA: Creating a SUB CA..."
 echo "SUB CA: Creating base files and directory structure..."
@@ -30,3 +30,4 @@ openssl ca \
     -in ../sub-ca/sub-ca.csr \
     -out ../sub-ca/sub-ca.crt \
     -extensions sub_ca_ext
+cd ../sub-ca
