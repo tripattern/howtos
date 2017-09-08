@@ -19,9 +19,11 @@ openssl req -new \
     -keyout private/root-ca.key
 
 echo "ROOT CA: Creating public key..."
+echo "ROOT CA: Test password - ${1}"
 openssl rsa -in private/root-ca.key -pubout -out root-ca-public.key
 
 echo "ROOT CA: Creating self signed certificate of ROOT CA CSR..."
+echo "ROOT CA: Test password - ${1}"
 openssl ca -selfsign \
     -config root-ca.conf \
     -in root-ca.csr \
