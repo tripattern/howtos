@@ -1,4 +1,9 @@
 # Git
+## Table of Contents
+* [Installing Git](#installing-git)
+* [Git Setup](#git-setup)
+* [Git Help](#git-help)
+
 
 ## Installing Git
 * https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
@@ -26,6 +31,12 @@ $ git config core.editor emacs
 $ git config --list
 ```
 
+## Git Help
+```
+$ git help
+$ git <git command> --help
+$ man git-<git command>
+```
 
 ## .gitignore
 * Standard glob patterns
