@@ -1,33 +1,31 @@
 # Git
-## Table of Contents
-* [Version Control](#version-control)
-  * [Build a numbering system](#build-a-numbering-system)
-* [Github Links](#github-links)
-* [Git Links](#git-links)
-* [Changes](#changes)
 
+## Installing Git
+* https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-## Books
-* https://git-scm.com/book/en/v2
-* http://ftp.newartisans.com/pub/git.from.bottom.up.pdf
+## Git Setup
+```
+# System wide
+$ git config --system
+$ sudo vim /etc/gitconfig
 
-## Version Control
-### Build a numbering system
-* http://semver.org/
-  * http://blog.ionic.io/ionic-3-0-has-arrived/ -example of semver in use... explained
-* http://www.linfo.org/kernel_version_numbering.html
+# User
+$ git config --global
+$ vim ~/.config/git/config or ~/.gitconfig
 
-## Github Links
-* https://help.github.com/articles/good-resources-for-learning-git-and-github/
-* https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
-* https://www.quora.com/How-can-I-export-backup-GitHub-issues
-* Fix commits with wrong author
-  * https://help.github.com/articles/changing-author-info/
+# Repository
+$ git config # user.email / user.name etc.
+$ vim .git/config
 
-## Git Links
-* https://git-scm.com/
-* http://pcottle.github.io/learnGitBranching/?demo
-* https://try.github.io/
+# Typical Commands
+$ git config user.name "John Doe"
+$ git config user.email johndoe@example.com
+$ git config core.editor emacs
+
+# Check your settings
+$ git config --list
+```
+
 
 ## .gitignore
 * Standard glob patterns
@@ -261,3 +259,26 @@ Reference: http://stackoverflow.com/questions/21839651/git-what-is-the-differenc
 ```
 $ git config core.autocrlf false
 ```
+
+
+## References
+### Github
+* https://help.github.com/articles/good-resources-for-learning-git-and-github/
+* https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
+* https://www.quora.com/How-can-I-export-backup-GitHub-issues
+* Fix commits with wrong author
+  * https://help.github.com/articles/changing-author-info/
+
+### Git
+* https://git-scm.com/
+* http://pcottle.github.io/learnGitBranching/?demo
+* https://try.github.io/
+
+### Books
+* https://git-scm.com/book/en/v2
+* http://ftp.newartisans.com/pub/git.from.bottom.up.pdf
+
+### Build a numbering system
+* http://semver.org/
+  * http://blog.ionic.io/ionic-3-0-has-arrived/ -example of semver in use... explained
+* http://www.linfo.org/kernel_version_numbering.html
