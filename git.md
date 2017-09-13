@@ -38,6 +38,15 @@ $ git <git command> --help
 $ man git-<git command>
 ```
 
+## Git Basics
+```
+$ git init # Initilize a repo in a directory
+$ git add *.c # add all files ending with extension ".c" to staging
+$ git add <FILENAME> # add specific file to staging
+$ git commit -m 'a message about this snapshot'
+$ git clone <URL> # clone respository into current directory
+```
+
 ## .gitignore
 * Standard glob patterns
   * https://en.wikipedia.org/wiki/Glob_(programming)
