@@ -16,5 +16,11 @@ openssl dgst -sha256 -sign "${CERT}/private/${CERT}.key" -out "${TEST_DIR}/sign.
 echo "Verify File Signing"
 openssl dgst -sha256 -verify  <(openssl x509 -in "${CERT}/${CERT}.crt"  -pubkey -noout) -signature "${TEST_DIR}/sign.txt.sha256" "${TEST_DIR}/sign.txt"
 
+# Sign and Unsign using the private and public key
+#echo "plop" > "helloworld.txt"
+#openssl rsautl -sign -in helloworld.txt -inkey aa.pem -out sig
+#openssl rsautl -verify -in sig -inkey aa.pem
+#> plop
+
 echo "Clean up after test..."
-rm -rf "${TEST_DIR}"
+#rm -rf "${TEST_DIR}"
