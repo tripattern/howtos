@@ -3,6 +3,7 @@
 * [Installing Git](#installing-git)
 * [Git Setup](#git-setup)
 * [Git Help](#git-help)
+* [Git Basics](#git-basics)
 
 
 ## Installing Git
@@ -33,9 +34,13 @@ $ git config --list
 
 ## Git Help
 ```
+# These three commands do the same things
 $ git help
 $ git <git command> --help
 $ man git-<git command>
+
+# Example
+$ git help config # provides manpage for the config files
 ```
 
 ## Git Basics
@@ -46,6 +51,12 @@ $ git add <FILENAME> # add specific file to staging
 $ git commit -m 'a message about this snapshot'
 $ git clone <URL> # clone respository into current directory
 ```
+
+
+
+
+# OLD STUFF
+
 
 ## .gitignore
 * Standard glob patterns
@@ -92,6 +103,17 @@ $ git rm README.md
 $ git add README
 ```
 
+
+
+
+
+
+
+
+
+
+
+
 ### Standard local repository settings
 ```
 $ git config user.name "tripattern"
@@ -99,6 +121,7 @@ $ git config user.email "systems@trip.com"
 $ git config push.default matching
 $ git config core.editor "vim"
 ```
+
 
 ## Git Basics
 ```
