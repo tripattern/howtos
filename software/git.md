@@ -52,6 +52,10 @@ $ git commit -m 'a message about this snapshot'
 $ git clone <URL> # clone respository into current directory
 ```
 
+## Changes to Repo
+* TODO
+  * https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
+
 
 
 
