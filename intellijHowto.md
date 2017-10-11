@@ -22,3 +22,26 @@ Categories=Development;IDE;
 Terminal=false
 StartupWMClass=jetbrains-idea
 ```
+
+### Checkstyle Setup
+* First get a default checkstyle.xml from e.g.:
+  * https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml
+  * Note you can activate the sun and google checkstyles in intellij as they are there by default
+* Edit the checkstyle.xml to suit you
+* Add it to a repo somewhere
+* Import into IntelliJ
+  * Settings -> Other Settings -> Checkstyle
+    * Make sure you have the correct "Checkstyle Version" for your file
+    * Click on + sign
+    * Add description and select file from path or URL
+    * Click finish
+  * Click on box to make the checkstyle active
+* Click Apply or OK  
+
+## Codestyle Setup
+* IntelliJ
+  * Settings -> Editor -> Code Style -> Java
+    * Scheme -> Click on Cog -> Import Scheme
+      * IntelliJ IDEA code style xml
+        * Add file xml
+    * Select scheme in drop down, apply or click ok    
