@@ -33,6 +33,7 @@ $ mvn site # generates website for your project in the target directory (admin v
 $ mvn idea:idea # generate an IntelliJ IDEA descriptor for your project
 $ mvn eclipse:eclipse # generate one for eclipse
 $ mvn jar:jar # generates jar from already compiled sources - they need to be there!!
+$ mvn clean test -Dcom.tripattern.java.squirrelJ.service.AlphaVantageCoService # run specific test
 ```
 Notes  
 * Delete your ~/.m2/repository folder regularly to get rid of dependencies that are no longer used
