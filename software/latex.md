@@ -53,3 +53,7 @@ getnonfreefonts --user [other arguments]
 ```
 getnonfreefonts[-sys] --lsfonts
 ```
+
+
+## References
+* http://www.tug.dk/FontCatalogue
