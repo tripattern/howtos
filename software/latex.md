@@ -54,6 +54,9 @@ getnonfreefonts --user [other arguments]
 getnonfreefonts[-sys] --lsfonts
 ```
 
+#### Install custom fonts
+* https://www.tug.org/fonts/fontinstall.html
+
 
 ## References
 * http://www.tug.dk/FontCatalogue
