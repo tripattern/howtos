@@ -39,6 +39,11 @@ find /usr/share/texlive/texmf-dist/tex/latex -name '*.fd' | xargs grep '\\Declar
 wget https://www.tug.org/fonts/getnonfreefonts/install-getnonfreefonts
 texlua install-getnonfreefonts
 ```
+### Mac OS X
+```
+curl --remote-name https://www.tug.org/fonts/getnonfreefonts/install-getnonfreefonts
+texlua install-getnonfreefonts
+```
 #### Usage
 ```
 getnonfreefonts --sys --help
