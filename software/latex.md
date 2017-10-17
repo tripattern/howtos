@@ -60,3 +60,4 @@ getnonfreefonts[-sys] --lsfonts
 
 ## References
 * http://www.tug.dk/FontCatalogue
+* https://tex.stackexchange.com/questions/23957/how-to-set-font-to-arial-throughout-the-entire-document
