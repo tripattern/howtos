@@ -48,3 +48,8 @@ getnonfreefonts --user [other arguments]
 ```
 #### List of font packages supported
 * http://www.tug.org/fonts/getnonfreefonts/
+
+#### Check for new fonts or updates
+```
+getnonfreefonts[-sys] --lsfonts
+```
