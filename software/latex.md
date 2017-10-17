@@ -62,3 +62,4 @@ getnonfreefonts[-sys] --lsfonts
 * http://www.tug.dk/FontCatalogue
 * https://tex.stackexchange.com/questions/23957/how-to-set-font-to-arial-throughout-the-entire-document
 * https://ctan.org/tex-archive/fonts/urw/arial/
+* https://github.com/timfel/texmf/blob/master/arial/arial/README.arial
