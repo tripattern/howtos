@@ -1,9 +1,9 @@
 ## Linux
 ### Oracle Java 7
 * Download latest Java 7 SDK from Oracle
-$ rm /usr/bin/java  
+$ sudo rm /usr/bin/java  
 $ sudo ln -s /usr/lib/jvm/oracle_jdk8/bin/java /usr/bin/java  
-$ vim /etc/profile.d/oraclejdk.sh  
+$ sudo vim /etc/profile.d/oraclejdk.sh  
 ```
 export IDEA_JDK=/usr/lib/jvm/oracle_jdk7
 export J2SDKDIR=/usr/lib/jvm/oracle_jdk7
@@ -14,9 +14,9 @@ export DERBY_HOME=/usr/lib/jvm/oracle_jdk7/db
 ```
 ### Oracle Java 8
 * Download latest Java 8 SDK from Oracle
-$ rm /usr/bin/java  
+$ sudo rm /usr/bin/java  
 $ sudo ln -s /usr/lib/jvm/oracle_jdk8/bin/java /usr/bin/java  
-$ vim /etc/profile.d/oraclejdk.sh  
+$ sudo vim /etc/profile.d/oraclejdk.sh  
 ```
 # Java 8
 export IDEA_JDK=/usr/lib/jvm/oracle_jdk8
