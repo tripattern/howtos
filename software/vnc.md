@@ -1,7 +1,7 @@
 ## Install
 ```
-$ sudo apt-get install x11vnc
-$ sudo apt-get install vncviewer
+sudo apt-get install x11vnc
+sudo apt-get install vncviewer
 ```
 
 ## Run
