@@ -4,9 +4,10 @@
   for i in $(ls -d */)
   do
     (
-      cd "$i"
-      git config user.name "tripattern"
-      git config user.email "systems@tripattern.com"
+      echo "${i}"
+      cd "${i}"
+      git config user.name "${2}"
+      git config user.email "${3}"
       git pull --rebase
       git reset --hard HEAD
     )
