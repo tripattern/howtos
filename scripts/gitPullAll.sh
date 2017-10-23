@@ -7,7 +7,8 @@
       cd "$i"
       git config user.name "tripattern"
       git config user.email "systems@tripattern.com"
-      ls
+      git pull --rebase
+      git reset --hard HEAD
     )
   done 
 )
