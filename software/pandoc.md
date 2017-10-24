@@ -5,6 +5,7 @@
 apt-get install texlive
 # OR
 sudo apt-get install texlive-full
+sudo apt-get install pandoc
 ```
 ### Mac OS X
 ```
