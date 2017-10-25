@@ -92,6 +92,12 @@ $ curl "https://google.com" | firefox "data:text/html;base64,$(base64 -w 0 <&0)"
 $ curl "https://google.com" | google-chrome "data:text/html;base64,$(base64 -w 0 <&0)"
 ```
 
+## Format Output that is in JSON
+```
+curl ... | python -m json.tool
+curl ... | ppjson
+```
+
 ## References
 * https://ec.haxx.se/
 * https://curl.haxx.se/docs/httpscripting.html#Background
