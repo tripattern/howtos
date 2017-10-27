@@ -10,11 +10,11 @@
 ### Ubuntu
 ```
 # First ensure you have setup a proper java 8 jdk with JAVA_HOME set
-cd ~/software/sqldeveloper
+cd ~/software/sqldeveloper # or wherever you have unzipped it, would be better to place in /opt/sqldeveloper
 vim sqldeveloper.sh
   # cd ...
   unset -v GNOME_DESKTOP_SESSION_ID
-  cd /home/user/software/sqldeveloper/bin && bash sqldeveloper $*
+  cd /home/user/software/sqldeveloper/sqldeveloper/bin && bash sqldeveloper $*
 chmod +x sqldeveloper.sh
 sudo ln -s ~/software/sqldeveloper/sqldeveloper.sh /usr/local/bin/sqldeveloper
 ```
