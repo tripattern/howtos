@@ -13,7 +13,7 @@
 cd ~/software/sqldeveloper
 vim sqldeveloper.sh
   # cd ...
-  unset -v GNOM_DESKTOP_SESSION_ID
+  unset -v GNOME_DESKTOP_SESSION_ID
   cd /home/user/software/sqldeveloper/bin && bash sqldeveloper $*
 chmod +x sqldeveloper.sh
 sudo ln -s ~/software/sqldeveloper/sqldeveloper.sh /usr/local/bin/sqldeveloper
