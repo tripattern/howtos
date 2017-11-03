@@ -1,3 +1,5 @@
+# Cloud Foundry Howto
+
 ## Install CF Client
 * Ubuntu / Debian
 ```
@@ -9,14 +11,29 @@ sudo apt-get install cf-cli
 
 ## Install PCF DEV
 * Install Virtualbox
-* Download latest version
+* Download the latest version
   * https://network.pivotal.io/products/pcfdev
 ```
 unzip pcfdev-VERSION-linux.zip
 ./pcfdev-VERSION-linux
 cf dev start
-# Enter Username and Password
 ```
+* Enter Username and Password
+* When all apps are up and running take a snapshot of the vm 
+
+## Usage
+```
+cf dev start
+cf dev stop
+cf dev destroy # destroys the created vm
+```
+
+## Install Sample App
+
+```
+
+```
+
 
 
 ## References
