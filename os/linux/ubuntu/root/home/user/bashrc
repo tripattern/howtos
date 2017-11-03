@@ -35,5 +35,8 @@ alias gp='git push'
 alias gsr='git svn rebase'
 alias gpav='~/code/howtos/scripts/gitPullAll.sh ~/code/ "Git Name" "Git email address"'
 alias gcred='~/code/howtos/scripts/gitCheckCredentials.sh'
+alias gn='git config user.name'
+alias ge='git config user.email'
+
 
 export LD_LIBRARY_PATH=/usr/lib/oracle/12.2/client64/lib/${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}
