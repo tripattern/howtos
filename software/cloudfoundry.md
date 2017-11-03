@@ -26,16 +26,25 @@ cf dev start
 cf dev start
 cf dev stop
 cf dev destroy # destroys the created vm
+# Check you can login as instructed
+# IF NOT...
+' 
 ```
 
 ## Install Sample App
 ```
 git clone https://github.com/cloudfoundry-samples/spring-music
 cd ./spring-music
+
+# Login to PCF DEV
 cf login -a api.local.pcfdev.io --skip-ssl-validation
 # login credentials
 # user pass
 # admin admin
+
+./gradlew assemble
+
+cf push --hostname spring-music
 ```
 
 
