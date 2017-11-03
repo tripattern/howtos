@@ -23,7 +23,12 @@ cf dev start
 
 ## Usage
 ```
+cf dev help
 cf dev start
+cf dev status
+cf dev suspend # Save VM current state to disk and stop VM.
+cf dev resume
+cf dev ssh
 cf dev stop
 cf dev destroy # destroys the created vm
 # Check you can login as instructed
