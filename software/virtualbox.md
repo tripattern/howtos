@@ -2,6 +2,8 @@
 
 ## Installation
 ```
+sudo apt-get update
+sudo apt-get install build-essential linux-headers-$(uname -r)
 sudo apt-get install virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11
 # ...x11 is what you need to set the display size
 ```
