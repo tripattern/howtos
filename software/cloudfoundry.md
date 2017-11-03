@@ -66,7 +66,21 @@ cf push --hostname spring-music
 # Open sample app in your browser: http://spring-music.local.pcfdev.io
 ```
 
+## Push Jar to CF
+```
+cf push name-of-app -p target/my.jar
+```
+* Navigate to: https://apps.local.pcfdev.io
+  * pcfdev-space
+    * Locate your app and you should see its URL under ROUTE
 
+## Administrate Apps on Cloudfoundry
+* Browse: https://apps.local.pcfdev.io
+  * U: user
+  * P: pass
+  * Go to pcfdev-space
+    * Click on the app of choice
+      * Should see its URL as ROUTE
 
 ## References
 * https://stackoverflow.com/questions/36596743/how-to-install-cloudfoundry-on-local-server
