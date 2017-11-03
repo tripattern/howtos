@@ -22,3 +22,4 @@ cf dev start
 ## References
 * https://stackoverflow.com/questions/36596743/how-to-install-cloudfoundry-on-local-server
 * https://pivotal.io/platform/pcf-tutorials/getting-started-with-pivotal-cloud-foundry-dev/introduction
+* https://github.com/pivotal-cf/pcfdev
