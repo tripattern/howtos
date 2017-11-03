@@ -2,8 +2,8 @@
 
 ## Installation
 ```
-$ sudo apt-get install virtualbox-guest-dkms
-$ sudo apt-get install virtualbox-guest-x11 # this is the only one you need to set the display size
+sudo apt-get install virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11
+# ...x11 is what you need to set the display size
 ```
 
 ## Mount USB Devices
