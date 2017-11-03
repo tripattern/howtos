@@ -27,8 +27,14 @@ cf dev start
 cf dev stop
 cf dev destroy # destroys the created vm
 # Check you can login as instructed
+Apps Manager URL: https://apps.local.pcfdev.io
+Admin user => Email: admin / Password: admin
+Regular user => Email: user / Password: pass
 # IF NOT...
-' 
+Add google's public domain name servers to your network interface
+8.8.8.8
+8.8.4.4
+* https://developers.google.com/speed/public-dns/
 ```
 
 ## Install Sample App
@@ -45,6 +51,7 @@ cf login -a api.local.pcfdev.io --skip-ssl-validation
 ./gradlew assemble
 
 cf push --hostname spring-music
+# Open sample app in your browser: http://spring-music.local.pcfdev.io
 ```
 
 
