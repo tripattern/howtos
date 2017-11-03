@@ -29,9 +29,10 @@ cf dev destroy # destroys the created vm
 ```
 
 ## Install Sample App
-
 ```
-
+git clone https://github.com/cloudfoundry-samples/spring-music
+cd ./spring-music
+cf login -a api.local.pcfdev.io --skip-ssl-validation
 ```
 
 
