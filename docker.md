@@ -7,8 +7,10 @@
 * https://docs.docker.com/engine/installation/linux/ubuntulinux/
 ### Run without sudo
 ```
-$ sudo groupadd docker
-$ sudo usermod -aG docker $USER
+sudo groupadd docker
+sudo usermod -aG docker $USER
+# Log out or reboot
+docker run hello-world # if this works then you are all set
 ```
 
 ## Service, Container And Image Management
