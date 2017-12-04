@@ -1,10 +1,10 @@
 # intellij Howto's
 
 # Update IntelliJ launcher on Ubuntu
-* Edit ~/.local/share/applications/jetbrains-idea.desktop
+* Edit /usr/share/applications/jetbrains-idea.desktop
 ```
-Icon=jetbrains-idea.png
-Path=~/software/idea-IU-162.2032.8/bin
+Icon=<path to icon>
+Path=<path to bin directory>
 ```
 * Reboot or login / logout
 
