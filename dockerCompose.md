@@ -14,7 +14,9 @@ services:
   ports:
    - 127.0.0.1:<PC Port>:<Internal docker port>
   volumes:
-   - ./web:/html # left side is the path from reference of the docker-compose file and right side indicates html root folder
+   - ./web:/html:ro 
+# left side is the path from reference of the docker-compose file and right side indicates html root folder
+# ro is read only on this volume
   working_dir: /html # so don't see in browser the folder html then 
 ```
 
