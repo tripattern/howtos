@@ -13,10 +13,14 @@ services:
   command: python -m SimpleHTTPServer 8080
   ports:
    - 127.0.0.1:<PC Port>:<Internal docker port>
+  volumes:
+   - ./web:/html # left side is the path from reference of the docker-compose file and right side indicates html root folder
+  working_dir: /html # so don't see in browser the folder html then 
 ```
 
 ## Usage
 ```
-docker-compose up-d
+docker-compose up-d # kills everything and restarts dokcer and reads docker compose file and starts fresh containers i.e. no old state
+
 
 ```
