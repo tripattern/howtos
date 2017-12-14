@@ -33,6 +33,9 @@ services:
  bud:
   image: alpine
   command: ping -c 1 dude
+  # command: ping -c 1 cooldude
+  links:
+   - dude: cooldude
   networks:
    - soup
 networks:
