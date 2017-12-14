@@ -22,6 +22,23 @@ services:
   working_dir: /html # so don't see in browser the folder html then 
 ```
 
+* docker-compose.yml
+```
+services:
+ dude:
+  image: alpine
+  command: tail -f / var/log/messages # keeps this docker alive
+  networks:
+   - soup
+ bud:
+  image: alpine
+  command: ping -c 1 dude
+  networks:
+   - soup
+networks:
+ soup
+```
+
 ## Usage
 ```
 docker-compose up-d # kills everything and restarts dokcer and reads docker compose file and starts fresh containers i.e. no old state
