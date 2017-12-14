@@ -9,6 +9,8 @@
 version: '2'
 services:
  srv:
+  # build . # this will build container from Dockerfile if it hasn't been built
+  # If you have made changes to the Dcokerfile or image you need to run docker-compose build so that it updates everything
   image: python:2-slim
   command: python -m SimpleHTTPServer 8080
   ports:
