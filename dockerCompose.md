@@ -24,5 +24,9 @@ services:
 ```
 docker-compose up-d # kills everything and restarts dokcer and reads docker compose file and starts fresh containers i.e. no old state
 
+docker-compose start # uses old state
+docker-compose stop # doesn't delete state
+
+docker compose down # nukes old container and state
 
 ```
