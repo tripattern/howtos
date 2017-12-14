@@ -51,4 +51,8 @@ docker-compose stop # doesn't delete state
 
 docker compose down # nukes old container and state
 
+docker-compose logs -f...?
+
+docker-compose ps
+
 ```
