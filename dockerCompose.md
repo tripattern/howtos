@@ -51,7 +51,7 @@ docker-compose stop # doesn't delete state
 
 docker compose down # nukes old container and state
 
-docker-compose logs -f...?
+docker-compose logs -f <name of service e.g. oracle NOT CONTAINER NAME (hint: use tab)>
 
 docker-compose ps
 
