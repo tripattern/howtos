@@ -1,4 +1,10 @@
 ## Linux
+### Ubuntu 16.04 LTS
+```
+sudo apt-get install oracle-java8-set-default
+source /etc/profile
+```
+
 ### Oracle Java 7
 * Download latest Java 7 SDK from Oracle
 $ sudo rm /usr/bin/java  
