@@ -1,6 +1,9 @@
 ## Linux
 ### Ubuntu 16.04 LTS
 ```
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install java-common oracle-java8-installer
 sudo apt-get install oracle-java8-set-default
 source /etc/profile
 ```
