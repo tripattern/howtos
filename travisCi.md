@@ -3,6 +3,7 @@
 ## Local Client
 * Install local client
 ```
+sudo apt-get install ruby-dev
 sudo gem install travis
 ```
 * Log In
