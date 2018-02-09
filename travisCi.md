@@ -3,8 +3,11 @@
 ## Local Client
 * Install local client
 ```
-sudo apt-get install ruby-dev
-sudo gem install travis
+curl -sSL https://get.rvm.io -o rvm.sh
+cat rvm.sh | bash -s stable
+source ~/.rvm/scripts/rvm
+rvm install ruby --2.1 # --default
+gem install travis
 ```
 * Log In
 ```
