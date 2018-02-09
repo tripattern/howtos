@@ -19,5 +19,5 @@ travis login --pro
 ## Created Encrypted Key or File
 ```
 travis encrypt <number u want to encrypt>
-~/.rvm/gems/ruby-2.4.1/bin/travis encrypt d1278f00f07bbd59fec0172581635c652d933366
+~/.rvm/gems/ruby-2.4.1/bin/travis encrypt <number you want to encrypt>
 ```
