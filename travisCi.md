@@ -21,3 +21,6 @@ travis login --pro
 travis encrypt <number u want to encrypt>
 ~/.rvm/gems/ruby-2.4.1/bin/travis encrypt <number you want to encrypt>
 ```
+
+## References
+* https://docs.travis-ci.com/user/sonarcloud/
