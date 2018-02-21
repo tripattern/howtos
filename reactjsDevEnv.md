@@ -4,5 +4,9 @@
 ## Install yarn
 ```
 npm install yarn # optional --global
-npm install react-scripts # optional --global
+```
+
+## Install dependencies in package.json
+```
+npm install
 ```
