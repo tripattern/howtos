@@ -53,3 +53,4 @@ npm start
 
 ## References
 * https://github.com/facebook/create-react-app
+* https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#npm-run-eject
