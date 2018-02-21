@@ -49,3 +49,7 @@ cd helloworld
 npm start
 ```
 * Browse: http://localhost:3000
+
+
+## References
+* https://github.com/facebook/create-react-app
