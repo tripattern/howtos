@@ -1,3 +1,8 @@
+# OPENCONNECT
+```
+$ sudo openconnect --user=<user login> --key-password=<your login password> <domain of gateway>
+```
+
 # Appgate
 * http://www.cisco.com/c/en/us/support/security/anyconnect-secure-mobility-client/tsd-products-support-series-home.html
 
@@ -21,9 +26,5 @@ $ ./agclient
 ```
 * Refer to val... notes for connection info
 
-## RATHER USE OPENCONNECT
-```
-$ sudo openconnect --user=<user login> --key-password=<your login password> <domain of gateway>
-```
  ## References
  * https://technicalsanctuary.wordpress.com/2016/05/28/installing-cisco-anyconnect-vpn-on-ubuntu-16-04/
