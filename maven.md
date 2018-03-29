@@ -5,6 +5,9 @@
  * by providing a clear path in the use of best practices 
 * Using a minimal pom.xml allows you to make use of a lot of standard conventions maven offers by default
 
+## Password Encryption
+* https://maven.apache.org/guides/mini/guide-encryption.html
+
 ## Aliases
 * Add to .bash_profile
 ```
