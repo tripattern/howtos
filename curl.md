@@ -43,7 +43,7 @@ curl -u user:password "http://example.org/"
 * Digest
   * With Json
 ```
-cat file.json | curl --digest --user 85805_MBBC_MGMT:Passwd -X POST -H "Content-Type:text/json" -d @- "http://localhost:8088/path" --verbose; echo -e "n"
+cat file.json | curl --digest --user username:Passwd -X POST -H "Content-Type:text/json" -d @- "http://localhost:8088/path" --verbose; echo -e "n"
 ```
 
 ## GET
