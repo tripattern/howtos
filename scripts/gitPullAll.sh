@@ -8,7 +8,8 @@
       cd "${i}"
       git config user.name "${2}"
       git config user.email "${3}"
-      git pull --rebase
+      #git pull --rebase
+      git pull
       git reset --hard HEAD
     )
   done 
