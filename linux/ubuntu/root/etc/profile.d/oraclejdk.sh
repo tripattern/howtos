@@ -6,6 +6,7 @@
 
 # Java 8
 export IDEA_JDK=/usr/lib/jvm/oracle_jdk8
+# SHOULD USE THIS!!! export IDEA_JDK=/<path>/idea-IU-181.4445.78/jre64
 #export J2SDKDIR=/usr/lib/jvm/oracle_jdk8
 #export J2REDIR=/usr/lib/jvm/oracle_jdk8/jre
 export PATH=$PATH:/usr/lib/jvm/oracle_jdk8/bin:/usr/lib/jvm/oracle_jdk8/db/bin:/usr/lib/jvm/oracle_jdk8/jre/bin
