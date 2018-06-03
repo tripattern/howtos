@@ -17,8 +17,8 @@ export MAVEN_HOME=/usr/local/opt/maven
 export GRADLE_HOME=/usr/local/opt/gradle
 #export ANDROID_HOME=/usr/local/opt/android-sdk
 #export ANDROID_NDK_HOME=/usr/local/opt/android-ndk
-export ANDROID_HOME=/usr/local/Caskroom/android-sdk
-export ANDROID_NDK_HOME=/usr/local/Caskroom/android-ndk
+export ANDROID_HOME=/usr/local/share/android-sdk
+export ANDROID_NDK_HOME=/usr/local/share/android-ndk
 
 export PATH=$ANT_HOME/bin:$PATH
 export PATH=$MAVEN_HOME/bin:$PATH
