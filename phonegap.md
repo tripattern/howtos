@@ -29,5 +29,6 @@ export PATH=$ANDROID_HOME/build-tools/19.1.0:$PATH
 ### Maintain
 * Update the SDK
 ```
-brew update sdk --no-ui
+brew update
+android update sdk --no-ui
 ```
