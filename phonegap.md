@@ -6,8 +6,8 @@
 brew install ant
 brew install maven
 brew install gradle
-brew install android-sdk
-brew install android-ndk
+brew cask install android-sdk
+brew cask install android-ndk
 ```
 * Environment variables setup
   * Reference: https://gist.github.com/patrickhammond/4ddbe49a67e5eb1b9c03
