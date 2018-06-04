@@ -36,3 +36,6 @@ export PATH=$ANDROID_HOME/build-tools/19.1.0:$PATH
 brew update
 android update sdk --no-ui
 ```
+
+## References
+* https://gist.github.com/agrcrobles/165ac477a9ee51198f4a870c723cd441
