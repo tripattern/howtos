@@ -1,4 +1,4 @@
-# PhoneGap
+# Android
 
 ## Mac OS X
 ### Install
