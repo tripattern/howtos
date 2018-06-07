@@ -9,6 +9,7 @@ brew install gradle
 brew cask install android-sdk
 brew cask install android-ndk
 
+brew cask install android-platform-tools
 brew cask install android-studio
 ```
 * Environment variables setup
