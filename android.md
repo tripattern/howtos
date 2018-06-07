@@ -10,6 +10,7 @@ brew cask install android-sdk
 brew cask install android-ndk
 
 brew cask install android-platform-tools
+# adb devices
 brew cask install android-studio
 ```
 * Environment variables setup
