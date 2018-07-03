@@ -1,4 +1,12 @@
-# Setup Ubuntu Development Environment
+# Laptop Setup
+
+## Dual Boot Windows / Ubuntu
+* Resize windows partition
+* Then a do a normal install of ubuntu with...
+  * encryption of /
+  * 4MB bootgrup
+  * 1024MB /boot
+  * Add proprietary drivers or sudo apt-get update && sudo apt-get upgrade after install for device drivers
 
 ### Software List
 * Change /bin/sh to point to /bin/bash
