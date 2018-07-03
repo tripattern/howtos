@@ -16,6 +16,9 @@ sudo rm -rf /bin/sh
 sudo ln -s /bin/bash /bin/sh
 
 ```
+* Install git
+* Setup ssh key and add to online git repos
+
 * SSH and scripts
 * /etc/hosts
 * Git
