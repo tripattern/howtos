@@ -22,7 +22,9 @@
   * cp swapfile swapfile.orig
     * Backup swapfile
   * dd if=/dev/zero of=swapfile bs=18M count=1024
-    * Create bigger swapfile
+    * Create bigger swapfile (18 GB)
+      * M stands for 1024
+      * 18 * 1024 * 1024 = 18GB
   * mkswap swapfile
     * Create swap file filesystem
   * swapon -a
