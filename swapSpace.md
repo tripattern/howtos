@@ -29,3 +29,5 @@
 * CHECK
   * swapon
   * free -h
+  * Reboot and check its still working
+    * If it is working you can get rid of the backup swapfile
