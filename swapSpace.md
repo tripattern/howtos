@@ -5,7 +5,7 @@
 ## Root swapfile pattern
 * WHY?
   * NOTE! This does not support tuksOnIce
-  * You usually do this when you forgot to setup a swap file for your system
+  * You usually do this when you forgot to setup a swap partition for your system
   * Usually a swapfile is created in "/" by default with size 2GB
   * We want to resize it for our system
 * HOW
