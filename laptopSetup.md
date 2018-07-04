@@ -1,5 +1,9 @@
 # Laptop Setup
 
+## Swap Space
+* Up to 2GB of RAM should be 2 x amount of installed RAM
+* Above 2GB it should be amount of RAM + 2GB
+
 ## Dual Boot Windows / Ubuntu
 * Resize windows partition
 * Then a do a normal install of ubuntu with...
