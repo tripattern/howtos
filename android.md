@@ -1,5 +1,11 @@
 # Android
 
+## Ubuntu 18.04 LTS
+### Install
+```
+sudo snap install android-studio --classic
+```
+
 ## Mac OS X
 ### Install
 ```
