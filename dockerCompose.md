@@ -2,6 +2,7 @@
 
 ## Install
 ### Ubuntu
+* https://docs.docker.com/compose/install/#install-compose
 
 ## Configuration
 * docker-compose.yml
