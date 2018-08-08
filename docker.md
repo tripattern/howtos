@@ -50,6 +50,9 @@ $ sudo docker run -t -i ubuntu:12.04 /bin/bash
 # 12.04 is the version - image tag
 # default is to use latest
 
+$ docker exec -it container-id sh -c "cd install && cd tomcat && ls"
+# RUNS SHELL COMMANDS ON EXISTING RUNNING CONTAINER!!!!!
+
 $ sudo docker run -d ubuntu /bin/sh -c "while true; do echo hello world; sleep 1; done"
 # NOTE:
 # Creates a container that runs as a background process
