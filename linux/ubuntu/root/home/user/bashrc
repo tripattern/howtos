@@ -26,6 +26,8 @@ alias s='cd ~/software'
 alias n='nautilus .'
 alias g='gedit'
 
+alias gbr='git branch'
+alias gco='git checkout'
 alias gpr='git pull --rebase'
 alias gp='git pull'
 alias gr='git reset --hard HEAD'
