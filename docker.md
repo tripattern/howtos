@@ -16,7 +16,7 @@ docker run hello-world # if this works then you are all set
 * First of all decide which repo you want to work in and cd into it
 ```
 cd repo1
-git checkout origin/branch1
+git checkout -b branch1 origin/branch1
 git remote add repo2 https://githost/repo2.git
 
 # TO MERGE into current branch
