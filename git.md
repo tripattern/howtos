@@ -9,6 +9,17 @@
 ## Installing Git
 * https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
+## Managing branches
+```
+git checkout -b <branch-name> # checkout branches
+git push -u origin <branch-name>
+
+# Checkout existing branch on remote repo
+git fetch
+git branch -v -a # shows all branches that can be checked out
+git checkout <branch-name>
+```
+
 ## Git Setup
 ```
 # System wide
