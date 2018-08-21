@@ -19,6 +19,20 @@ git fetch
 git branch -v -a # shows all branches that can be checked out
 git checkout <branch-name>
 ```
+* Old notes
+```
+$ git fetch # pulls branches on the remote repo
+$ git branch # lists all branches
+$ git checkout [branch-name] # switches to specified branch
+
+$ git checkout -b [branch-name] origin/branch-name # GOOD: checkout branch from remote repository and link it to remote branch-name!!!!
+$ git checkout -b [branch-name] origin # BAD: checkout branch from remote repository and link it to remote MASTER!!!! 
+
+$ git checkout -b [branch-name-new] [branch-name-old] # to create a new branch from another existing branch
+$ git push origin [branch-name-new] # do this to create the branch on github
+```
+* Diff between two branches
+ * http://stackoverflow.com/questions/9834689/comparing-two-branches-in-git
 
 ## Git Setup
 ```
@@ -118,17 +132,6 @@ $ git rm README.md
 $ git add README
 ```
 
-
-
-
-
-
-
-
-
-
-
-
 ### Standard local repository settings
 ```
 $ git config user.name "tripattern"
@@ -136,7 +139,6 @@ $ git config user.email "systems@trip.com"
 $ git config push.default matching
 $ git config core.editor "vim"
 ```
-
 
 ## Git Basics
 ```
@@ -206,21 +208,6 @@ $ git config credential.helper store
 # More info:
 $ git credential-store --help
 ```
-
-### Git Branching
-```
-$ git fetch # pulls branches on the remote repo
-$ git branch # lists all branches
-$ git checkout [branch-name] # switches to specified branch
-
-$ git checkout -b [branch-name] origin/branch-name # GOOD: checkout branch from remote repository and link it to remote branch-name!!!!
-$ git checkout -b [branch-name] origin # BAD: checkout branch from remote repository and link it to remote MASTER!!!! 
-
-$ git checkout -b [branch-name-new] [branch-name-old] # to create a new branch from another existing branch
-$ git push origin [branch-name-new] # do this to create the branch on github
-```
-* Diff between two branches
- * http://stackoverflow.com/questions/9834689/comparing-two-branches-in-git
 
 ### Changes
 #### Reverting changes in branch back to previous commit
