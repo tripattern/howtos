@@ -9,6 +9,19 @@
 ## Installing Git
 * https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
+## Single local branch and 2 remote repos
+```
+cd repo1
+git checkout -b branch1 origin/branch1
+git remote add repo2 https://githost/repo2.git
+
+# TO MERGE into current branch
+git pull repo2 branch2
+
+git push -u origin branch1
+git push -u repo2 branch2
+```
+
 ## Managing branches
 ```
 git checkout -b <branch-name> # checkout branches
