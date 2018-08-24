@@ -1,5 +1,11 @@
 # A Howto on good to know Commands
 
+## Postgresql Client
+```
+sudo apt-get install postgresql-client
+psql -U postgres -d prs -h 127.0.0.1 -p 5432
+```
+
 ## Access Postgresql Safely
 ```
 $ sudo su  - postgres
