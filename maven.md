@@ -8,6 +8,12 @@
 ## Password Encryption
 * https://maven.apache.org/guides/mini/guide-encryption.html
 
+## Tests
+```
+mvn clean install  -DskipTests -D skipIts # Skip all tests
+mvn -Dit.test=TestClass.Method verify
+```
+
 ## Aliases
 * Add to .bash_profile
 ```
