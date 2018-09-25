@@ -13,7 +13,7 @@ $ cat shareServer.sh
     # share the top left screen
     # must put in the resolution of top left screen
     x11vnc -nobell -clip 1920x1200+0+0 "$@"
-    x11vnc -nobell -clip 3840x2160+3840+0 "$@" # this uses the right hand view
+    # x11vnc -nobell -clip 3840x2160+3840+0 "$@" # this uses the right hand view
     ---
 $ cat shareView.sh
     ---
