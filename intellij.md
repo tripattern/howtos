@@ -9,6 +9,10 @@
   * Click on Local Changes
     * Click on Resolve
       * Double Click the file you want to resolve
+* The left screen is the local version that was on your computer
+* The middle screen is the result of your merging activities
+* The right screen is the version you pulled from the repository
+* https://www.jetbrains.com/help/idea/resolving-conflicts.html
 
 # Update IntelliJ launcher on Ubuntu
 * Edit /usr/share/applications/jetbrains-idea.desktop
