@@ -1,4 +1,4 @@
-# A Howto on good to know Commands
+# Postgresql Howto
 
 ## Postgresql Client
 ```
