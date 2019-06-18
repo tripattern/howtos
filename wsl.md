@@ -27,3 +27,6 @@ sudo mount -t drvfs C: /mnt/c -o metadata
 ## Multiple Terminals
 * For now simplky open any cmd and type ubuntu1804
   * There is a new cool terminal coming
+
+## References
+* https://docs.microsoft.com/en-us/windows/wsl/wsl-config
