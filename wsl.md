@@ -13,3 +13,12 @@ ubuntu config --default-user new_user_name # do this to change the default user
 
 ## Setup VSCode with WSL
 * https://code.visualstudio.com/docs/remote/wsl
+
+## Issues cloning into mounted win drive
+```
+If you get the following when you clone into a win drive
+fatal: could not set 'core.filemode' to 'false'
+
+sudo umount /mnt/c
+sudo mount -t drvfs C: /mnt/c -o metadata
+```
