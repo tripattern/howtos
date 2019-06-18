@@ -22,5 +22,6 @@ mkdir testDir
 cd testDir
 python3 -m venv env1
 source env1/bin/activate
+python program_name.py
 deactivate
 ```
