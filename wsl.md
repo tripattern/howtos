@@ -13,6 +13,7 @@ ubuntu config --default-user new_user_name # do this to change the default user
 
 ## Setup VSCode with WSL
 * https://code.visualstudio.com/docs/remote/wsl
+* Just run code . in ubuntu and it will fire up
 
 ## Issues cloning into mounted win drive
 ```
