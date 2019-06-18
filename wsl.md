@@ -3,7 +3,7 @@
 ## Install
 * Don't use choco... install from store
 * In search look for ubuntu and run as administrator
-  * You will beasked to enter admin user
+  * You will be asked to enter default & admin user for ubuntu and password
 ## Configure
 ```
 wslconfig /l # distribution that has been setup
@@ -23,3 +23,7 @@ fatal: could not set 'core.filemode' to 'false'
 sudo umount /mnt/c
 sudo mount -t drvfs C: /mnt/c -o metadata
 ```
+
+## Multiple Terminals
+* For now simplky open any cmd and type ubuntu1804
+  * There is a new cool terminal coming
