@@ -22,7 +22,10 @@ mkdir testDir
 cd testDir
 python3 -m venv env1
 source env1/bin/activate
-python program_name.py
+python -m pip module_name # to install things specific for this venv
+python -m pip freeze > requirements.txt
+python -m pip install -r requiremnts.txt # if you have a requirements file...
+python program_name.py # python will be the venv python
 deactivate
 ```
 
