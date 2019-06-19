@@ -25,3 +25,9 @@ source env1/bin/activate
 python program_name.py
 deactivate
 ```
+
+## Troubleshooting
+* Module can't be found even though its seems to be installed (in pip freeze etc.)
+```
+/home/kb2040/.virtualenvs/scripts/bin/python -m pip install module_name
+```
