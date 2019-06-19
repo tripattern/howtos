@@ -17,7 +17,7 @@ pip3 uninstall package_name
 
 ## Setup virtualenv
 ```
-sudo apt install -y python3-venv
+sudo apt install -y python3-venv # or pip install virtualenv
 mkdir testDir
 cd testDir
 python3 -m venv env1
