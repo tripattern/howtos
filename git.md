@@ -9,6 +9,39 @@
 ## Installing Git
 * https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
+## Using different ssh keys with for different github accounts
+```
+ssh-keygen -t rsa -C "email_address@example.com"
+ssh-add ~/.ssh/id_rsa_alt
+ssh-add -l # List cached keys (-D to delete cached keys)
+vim ~/.ssh/config
+##################################
+# default
+Host github.com
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/id_rsa
+
+# alt
+Host github.com-alt
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/id_rsa_alt
+##################################
+
+cd local_repo
+
+git config user.name "alt"
+git config user.email "alt@example.com"
+
+vim .git/config
+[remote "origin"]
+        url = git@github.com-alt:alt/some.git
+        fetch = +refs/heads/*:refs/remotes/origin/*
+```
+Reference:  
+* https://gist.github.com/jexchan/2351996
+
 ## Single local branch and 2 remote repos
 ```
 cd repo1
