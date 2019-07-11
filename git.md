@@ -35,9 +35,11 @@ git config user.name "alt"
 git config user.email "alt@example.com"
 
 vim .git/config
+##################################
 [remote "origin"]
         url = git@github.com-alt:alt/some.git
         fetch = +refs/heads/*:refs/remotes/origin/*
+##################################        
 ```
 Reference:  
 * https://gist.github.com/jexchan/2351996
