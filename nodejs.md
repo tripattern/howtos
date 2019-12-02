@@ -6,6 +6,11 @@ $ sudo apt-get install nodejs npm
 ```
 
 ## Upgrade node.js and npm
+### Windows
+```
+choco upgrade nodejs # or nodejs.install?
+```
+### Linux
 * Note this automatically pulls the version you want from the internet
 ```
 sudo npm cache clean -f
