@@ -17,3 +17,11 @@ sudo ln -sf /usr/local/n/versions/node/<VERSION>/bin/node /usr/bin/node # for ub
 sudo node -v
 sudo npm -v
 ```
+
+# Update packages in your node project
+* https://flaviocopes.com/update-npm-dependencies/
+```
+npm install -g npm-check-updates
+ncu -u
+npm update
+```
