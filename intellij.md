@@ -3,6 +3,10 @@
 ## Keyboard Shortcuts
 * https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf
 
+## Windows: Use Git bash terminal in intellij
+* Navigate: File - Settings - Terminal
+* Add the following to "Shell path": "C:\Program Files\Git\git-bash.exe" --cd="C:/Users/<path to project directory>"
+
 ## Resolving Merge Conflicts
 * First pull the changes into your repo resulting in a merging state
 * Open IntelliJ and navigate to the "Version Control" tab at the bottom of the app
