@@ -5,7 +5,7 @@
 
 ## Windows: Use Git bash terminal in intellij
 * Navigate: File - Settings - Terminal
-* Add the following to "Shell path": "C:\Program Files\Git\git-bash.exe" --cd="C:/Users/<path to project directory>"
+* Add the following to "Shell path": "C:\Program Files\Git\git-bash.exe" --cd="C:/Users/\<path to project directory\>"
 
 ## Resolving Merge Conflicts
 * First pull the changes into your repo resulting in a merging state
