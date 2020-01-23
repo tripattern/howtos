@@ -6,7 +6,7 @@
 # sudo dpkg --configure -a # may need to do this first?
 sudo apt-get install texlive
 # OR
-sudo apt-get install texlive-full
+sudo apt-get install texlive-full # USE THIS ONE!!!!! Even though it takes forever...
 ```
 ### Mac OS X
 ```
