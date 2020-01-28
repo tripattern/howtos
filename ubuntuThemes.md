@@ -7,5 +7,5 @@ sudo apt-get install papirus-icon-theme
 sudo apt install gnome-tweak-tool # or gnome-tweaks
 gnome-shell --version
 sudo apt install gnome-shell-extensions
-gnome-shell-extension-dashtodock
+sudo apt install gnome-shell-extension-dashtodock
 ```
