@@ -1,8 +1,9 @@
 * Resize images for the web etc.
 * Linux
 ```
-$ convert blah.jpg -resize 1200 test.jpg
-$ convert blah.png -resize 1200x800 test.jpg # 1200x600 = widthxheight
+convert blah.jpg -resize 1200 test.jpg
+convert blah.png -resize 1200x800 test.jpg # 1200x600 = widthxheight
+convert -resize x32 -gravity center -crop 32x32+0+0 input.png -flatten -colors 256 -background transparent favicon.ico
 ```
 * Mac
 ```
