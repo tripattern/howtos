@@ -1,6 +1,6 @@
 ## Install
 ```
-sudo apt-get install ssvnc # x11vnc
+sudo apt-get install ssvnc # x11vnc - xtight or tiger http://www.karlrunge.com/x11vnc/ssvnc.html
 sudo apt-get install vncviewer
 ```
 
