@@ -1,6 +1,6 @@
 ## Install
 ```
-sudo apt-get install x11vnc
+sudo apt-get install ssvnc # x11vnc
 sudo apt-get install vncviewer
 ```
 
