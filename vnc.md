@@ -1,6 +1,7 @@
 ## Install
 ```
 # First install either one of the following: xtight or tiger http://www.karlrunge.com/x11vnc/ssvnc.html
+sudo apt-get install xtightvncviewer
 sudo apt-get install ssvnc
 sudo apt-get install x11vnc
 sudo apt-get install vncviewer
