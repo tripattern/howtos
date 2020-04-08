@@ -3,7 +3,7 @@
 ## Install & update in Ubuntu
 * https://www.jetbrains.com/help/idea/update.html
 * https://www.jetbrains.com/help/idea/installation-guide.html
-``
+```
 sudo snap refresh intellij-idea-ultimate
 sudo snap install intellij-idea-ultimate --classic
 ```
