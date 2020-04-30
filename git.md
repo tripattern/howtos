@@ -1,10 +1,19 @@
 # Git
+
 ## Table of Contents
 * [Installing Git](#installing-git)
 * [Git Setup](#git-setup)
 * [Git Help](#git-help)
 * [Git Basics](#git-basics)
 
+## NB! Rebasing!
+* Always use rebasing!
+```
+git checkout <branch name>
+git rebase master
+git push -f
+git pull --rebase
+```
 
 ## Installing Git
 * https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
