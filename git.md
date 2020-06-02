@@ -1,5 +1,11 @@
 # Git
 
+## Clean
+```
+git rest --hard HEAD
+git clean -xfd
+```
+
 ## Table of Contents
 * [Installing Git](#installing-git)
 * [Git Setup](#git-setup)
