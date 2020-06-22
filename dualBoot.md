@@ -11,3 +11,5 @@
 ## in Windows disable fast startup
 
 ## Stop (Disable) secureboot in windows 10
+
+## Temporarily Disable Bitlocker
