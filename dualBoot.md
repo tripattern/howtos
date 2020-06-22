@@ -13,3 +13,4 @@
 ## Stop (Disable) secureboot in windows 10
 
 ## Temporarily Disable Bitlocker
+* https://www.windowscentral.com/how-suspend-bitlocker-encryption-perform-system-changes-windows-10#disable_bitlocker_powershell
