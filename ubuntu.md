@@ -1,5 +1,10 @@
 # Ubuntu
 
+## Fix sound
+```
+alsactl restore
+```
+
 ## Use External Monitor and close Laptop Lid
 * https://askubuntu.com/questions/152156/how-do-i-prevent-an-external-monitor-from-shutting-off-when-closing-my-laptop-li
 
