@@ -9,8 +9,8 @@ sudo rm /usr/bin/java
 sudo ln -s /usr/lib/jvm/oracle_jdk8/bin/java /usr/bin/java  
 sudo vim /etc/profile.d/oraclejdk.sh  
 #### Write in file ####
-export PATH=$PATH:/usr/lib/jvm/oracle_jdk8/bin:/usr/lib/jvm/oracle_jdk8/db/bin:/usr/lib/jvm/oracle_jdk8/jre/bin
-export JAVA_HOME=/usr/lib/jvm/oracle_jdk8
+export PATH=$PATH:/usr/lib/jvm/jdk1.8.0_251/bin:/usr/lib/jvm/jdk1.8.0_251/db/bin:/usr/lib/jvm/jdk1.8.0_251/jre/bin
+export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_251
 #### EOF ####
 ```
 
