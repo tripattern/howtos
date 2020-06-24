@@ -4,13 +4,14 @@
 
 ### Oracle Java 8
 * Download latest Java 8 SDK from Oracle
-$ sudo rm /usr/bin/java  
-$ sudo ln -s /usr/lib/jvm/oracle_jdk8/bin/java /usr/bin/java  
-$ sudo vim /etc/profile.d/oraclejdk.sh  
 ```
-# Java 8
+sudo rm /usr/bin/java  
+sudo ln -s /usr/lib/jvm/oracle_jdk8/bin/java /usr/bin/java  
+sudo vim /etc/profile.d/oraclejdk.sh  
+#### Write in file ####
 export PATH=$PATH:/usr/lib/jvm/oracle_jdk8/bin:/usr/lib/jvm/oracle_jdk8/db/bin:/usr/lib/jvm/oracle_jdk8/jre/bin
 export JAVA_HOME=/usr/lib/jvm/oracle_jdk8
+#### EOF ####
 ```
 
 
