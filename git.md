@@ -90,6 +90,22 @@ git push -u origin branch1
 git push -u repo2 branch2
 ```
 
+## Merge two branches from two repos
+* First of all decide which repo you want to work in and cd into it
+```
+cd repo1
+git checkout -b branch1 origin/branch1
+git remote add repo2 https://githost/repo2.git
+
+# TO MERGE into current branch
+git pull repo2 branch2
+
+git push -u origin branch1
+git push -u repo2 branch2
+
+```
+
+
 ## Managing branches
 ```
 git checkout -b <branch-name> # checkout branches
