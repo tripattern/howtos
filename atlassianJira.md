@@ -7,6 +7,9 @@
 docker pull atlassian/jira-software
 docker images # check downloaded
 
+# Email?
+# https://account.live.com/AddAssocId?uaid=2705c9fb40d441e697d69b7e98be713e
+
 docker run -d -p 8080:8080 atlassian/jira-software
 
 # Nuke test system
