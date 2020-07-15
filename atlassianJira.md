@@ -16,4 +16,3 @@ docker run -d -p 8080:8080 atlassian/jira-software
 docker container rm <number>
 docker image rm <number>
 ```
-_
