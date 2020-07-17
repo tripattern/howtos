@@ -12,7 +12,9 @@ docker images # check downloaded
 # https://account.live.com/AddAssocId?uaid=2705c9fb40d441e697d69b7e98be713e
 # Follow prompts to create atlassian account and to set up server
 
-docker run -d -p 8080:8080 atlassian/jira-software
+cd software
+docker volume create --name jiraDockerVolume
+docker run -v jiraVolume:/var/atlassian/application-data/jira --name="jira" -d -p 8080:8080 atlassian/jira-software
 ```
 
 * Nuke Test System
