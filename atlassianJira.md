@@ -15,6 +15,9 @@ docker images # check downloaded
 cd software
 docker volume create --name jiraDockerVolume
 docker run -v jiraVolume:/var/atlassian/application-data/jira --name="jira" -d -p 8080:8080 atlassian/jira-software
+
+# After reboot or restart of docker container
+docker start <container number or name>
 ```
 
 * Nuke Test System
