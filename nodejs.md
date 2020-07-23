@@ -1,8 +1,28 @@
-## Install node.js and npm
+# Nodejs
+
+## Setup
+
+### Option 3: Install nvm
+* https://github.com/nvm-sh/nvm
 ```
-$ sudo apt-get update
-$ sudo apt-get upgrade
-$ sudo apt-get install nodejs npm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+source ~/.bashrc
+```
+* Basic nvm commands
+```
+nvm list-remote
+nvm install v14.6.0
+nvm list
+nvm use v13.6.0
+nvm install lts/erbium
+node -v
+```
+
+### Option 2: Install node.js and npm
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install nodejs npm
 ```
 
 ## Upgrade node.js and npm
