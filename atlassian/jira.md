@@ -13,7 +13,7 @@ docker images # check downloaded
 # Follow prompts to create atlassian account and to set up server
 
 cd software
-docker volume create --name jiraDockerVolume
+docker volume create --name jiraVolume
 docker run -v jiraVolume:/var/atlassian/application-data/jira --name="jira" -d -p 8080:8080 atlassian/jira-software
 
 # After reboot or restart of docker container
