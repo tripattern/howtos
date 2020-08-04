@@ -26,3 +26,9 @@ docker stop <container number>
 docker container rm <number>
 docker image rm <number>
 ```
+
+## Backups
+* Web frontend says the backup is here: /var/atlassian/application-data/jira/export
+```
+cd /var/lib/docker/volumes/jiraVolume/_data/export
+``
