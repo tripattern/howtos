@@ -7,4 +7,6 @@ project = PROG and issue in linkedIssues("PROG-1")
 * Find all issues & sub-taks linked to an epic
 ----
 "Epic Link" = "GHTB-1"
+OR
+Epic-Verknüpfung = "GHTB-1"
 ----
