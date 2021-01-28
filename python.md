@@ -2,7 +2,9 @@
 
 ## Install & Use Pip
 ```
-sudo apt-get upgrade python3
+sudo apt-get update && sudo apt get upgrade
+sudo apt install python3
+sudo apt upgrade python3
 sudo apt update && sudo apt install python3-pip
 python3 -m pip install --user --upgrade pip
 
