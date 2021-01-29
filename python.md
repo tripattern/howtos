@@ -11,7 +11,18 @@ sudo apt update && sudo apt install python3-pip
 python3 -m pip install --user --upgrade pip
 sudo apt-get install build-essential libssl-dev libffi-dev python-dev
 ```
-* Setup virtual python dev environment
+* Setup virtual environment using pipenv
+```
+pip3 install pipenv
+mkdir my_project
+cd my_project
+pipenv shell
+pipenv install **package_name**
+pipenv graph # tells you what packages are installed
+# NOTE: commit the Pipfile cretaed in order to manage dependencies
+```
+
+* Setup virtual python dev environment - DON'T USE THIS AS BREAKS IF UPDATE SYSTEM PYTHON
 ```
 sudo apt-get install -y python3-venv
 cd ~
@@ -20,9 +31,11 @@ cd environments
 python3 -m venv my_project_env # isolated python project space
 source my_project_env/bin/activate # activates space in the current terminal
 deactivate # deactivates project space
+
+python3 -mvenv --upgrade path/to/venv # if you need to upgrade
 ```
-* References
-  * https://linoxide.com/linux-how-to/setup-python-virtual-environment-ubuntu/
+  * References
+    * https://linoxide.com/linux-how-to/setup-python-virtual-environment-ubuntu/
 
 ## Using Pip
 ```
