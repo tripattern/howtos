@@ -42,10 +42,12 @@ python3 -mvenv --upgrade path/to/venv # if you need to upgrade
 pip3 install pipenv
 mkdir my_project
 cd my_project
-pipenv shell
+pipenv shell # creates virtual environment for you
 pipenv install **package_name**
+pipenv install **package_name** --dev # developer package
 pipenv uninstall **paackage name**
 pipenv lock # creates the lock file
+deactivate # closes the shell
 ```
 
 ## Using Pip
