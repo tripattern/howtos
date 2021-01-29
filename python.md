@@ -19,6 +19,7 @@ cd my_project
 pipenv shell
 pipenv install **package_name**
 pipenv graph # tells you what packages are installed
+pipenv upgrade **package_name**
 # NOTE: commit the Pipfile cretaed in order to manage dependencies
 ```
 
