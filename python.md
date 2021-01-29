@@ -13,7 +13,13 @@ sudo apt-get install build-essential libssl-dev libffi-dev python-dev
 ```
 * Setup virtual python dev environment
 ```
- sudo apt-get install -y python3-venv
+sudo apt-get install -y python3-venv
+cd ~
+mkdir environments
+cd environments
+python3 -m venv my_project_env # isolated python project space
+source my_project_env/bin/activate # activates space in the current terminal
+deactivate # deactivates project space
 ```
 * References
   * https://linoxide.com/linux-how-to/setup-python-virtual-environment-ubuntu/
