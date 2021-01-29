@@ -1,15 +1,27 @@
 # Python
 
-## Install & Use Pip
+## Setup Python Dev Environment
+* Install Python
 ```
+# Installing Python
 sudo apt-get update && sudo apt get upgrade
 sudo apt install python3
 sudo apt upgrade python3
 sudo apt update && sudo apt install python3-pip
 python3 -m pip install --user --upgrade pip
+sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+```
+* Setup virtual python dev environment
+```
+ sudo apt-get install -y python3-venv
+```
+* References
+  * https://linoxide.com/linux-how-to/setup-python-virtual-environment-ubuntu/
 
+## Using Pip
+```
 pip3 install -r requirements.txt
-pip3 install scrapy==1.5
+pip3 install scrapy==1.5 #package name and version
 
 pip3 list
 
