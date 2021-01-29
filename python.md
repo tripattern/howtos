@@ -37,6 +37,17 @@ python3 -mvenv --upgrade path/to/venv # if you need to upgrade
   * References
     * https://linoxide.com/linux-how-to/setup-python-virtual-environment-ubuntu/
 
+## Using pipenv
+```
+pip3 install pipenv
+mkdir my_project
+cd my_project
+pipenv shell
+pipenv install **package_name**
+pipenv uninstall **paackage name**
+pipenv lock # creates the lock file
+```
+
 ## Using Pip
 ```
 pip3 install -r requirements.txt
@@ -46,6 +57,7 @@ pip3 list
 
 pip3 install --upgrade package_name
 pip3 uninstall package_name
+pipenv install --dev pytest
 ```
 
 ## Setup virtualenv
