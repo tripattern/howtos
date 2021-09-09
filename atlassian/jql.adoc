@@ -1,5 +1,11 @@
 = JQL
 
+== Show epics and linked issues across projects
+----
+(project = "Name of Project" OR project = NameOfProject) and parentEpic = PRJID-77
+----
+
+== Link Epics & Initiatives
 * When  you don't have advanced roadmaps you can have a simple link between epics and initiatives and search all epics linked to initiative based on the following query
 ----
 project = PROG and issue in linkedIssues("PROG-1")
