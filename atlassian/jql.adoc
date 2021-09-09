@@ -3,6 +3,8 @@
 == Show epics and linked issues across projects
 ----
 (project = "Name of Project" OR project = NameOfProject) and parentEpic = PRJID-77
+OR...
+project IN ("Name of Project", NameOfProject) and parentEpic IN (PRJID-77, PRJID-1)
 ----
 
 == Link Epics & Initiatives
