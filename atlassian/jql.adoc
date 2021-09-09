@@ -1,6 +1,13 @@
 = JQL
 
 == Show epics and linked issues across projects
+* Search in all Projects
+----
+parentEpic = PRJID-77
+# OR...
+parentEpic IN (PRJID-77, PRJID-1)
+----
+* Specific Projects
 ----
 (project = "Name of Project" OR project = NameOfProject) and parentEpic = PRJID-77
 # OR...
