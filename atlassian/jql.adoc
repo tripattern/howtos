@@ -1,5 +1,10 @@
 = JQL
 
+== Only show epics
+----
+issuetype = epic
+----
+
 == Show epics and linked issues across projects
 * Search in all Projects
 ----
