@@ -1,5 +1,10 @@
 = JQL
 
+== Show continuous improvement tasks
+----
+project = "Project Name" and labels = kaizen and status NOT IN ("Done")
+----
+
 == Only show epics
 ----
 issuetype = epic
