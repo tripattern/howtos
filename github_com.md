@@ -27,5 +27,9 @@ Host git_profile.github.com
 
 ### Usage
 ```
-git clone git@git_profile.github.com:git_profile/kgdm.git
+git clone git@git_profile.github.com:git_profile/repo.git
+cd repo
+git config user.name "github user"
+git config user.email "email@example.com"
 ```
+
