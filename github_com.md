@@ -1,0 +1,23 @@
+# github.com
+
+## Multiple github accounts on single machine
+* https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/
+
+### ssh keys
+```
+ssh-keygen -t rsa -C "email@example.com" -f id_rsa_unique_identifier
+```
+### config file
+* vim ~/.ssh/config
+```
+# git_profile
+Host git_profile.github.com
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/id_rsa_unique_identifier
+```
+
+### Usage
+```
+git clone git@git_profile.github.com:git_profile/kgdm.git
+```
