@@ -1,12 +1,20 @@
 # github.com
 
 ## Multiple github accounts on single machine
+Reference:  
 * https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/
 
 ### ssh keys
 ```
 ssh-keygen -t rsa -C "email@example.com" -f id_rsa_unique_identifier
 ```
+
+### Register keys with the ssh agent
+```
+eval "$(ssh-agent -s)" # check the agent is running
+ssh-add ~/.ssh/id_rsa_unique_identifier
+```
+
 ### config file
 * vim ~/.ssh/config
 ```
