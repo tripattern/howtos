@@ -1,6 +1,6 @@
-= Youtube
+# Youtube
 
-== Create short snippet of video
+## Create short snippet of video
 * You need to use embed mode in the url
 * Use variables start and end in the url
   * Dimensions are in seconds
