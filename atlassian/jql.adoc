@@ -1,5 +1,16 @@
 = JQL
 
+== Get PBI's from Previous Sprints
+----
+Sprint in closedSprints() AND issuetype != Sub-task and project = 'TEST' and 
+---
+
+== Get PBI's from Previous Sprints
+----
+project = 'TEST' and resolved >= startOfMonth(-3)
+project = 'TEST' and resolved >= startOfMonth(-3) AND resolved <= endOfMonth(-1)
+----
+
 == Kaizen
 
 * Get a list of issues that were created in the last number of days and have the label 'kaizen'
