@@ -1,5 +1,10 @@
 # github.com
 
+## HTTPS DNS
+* https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+
+* https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https
+
 ## Multiple github accounts on single machine
 Reference:  
 * https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/
