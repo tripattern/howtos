@@ -10,3 +10,5 @@
 ## Actions
 * How to move source back into the scene when you changed the resolution of the scene
   * Rightl Click on the source and choose transform and choose something like "Fit to Screen"
+* Share camera
+  * Create source called "Video Capture Device"
