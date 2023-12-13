@@ -17,4 +17,5 @@
 * Set Scene Resolution e.g. 1920 x 1080
   * Settings -> Video -> "Base (Canvas) Resolution"
 * Transition to new Scene
-  * Studio Mode 
+  * Studio Mode
+* Order of Sources determines what scene sits on top of what scene
