@@ -12,7 +12,7 @@ vim config
 
 ###########################################
 # additional github profile
-Host github_profile_name.github.com
+Host config_profile_name.github.com
    HostName github.com
    User git
    IdentityFile ~/.ssh/id_rsa_generated_key
@@ -23,7 +23,7 @@ Host github_profile_name.github.com
 * Go to github and add the public key to the ssh keys
 * git clone the repo you want to use
 ```
-git clone git@github.com:github_profile_name/repo.git
+git clone git@config_profile_name.github.com:github_profile_name/repo.git
 ```
 * cd into the git repo directory
 * Set the correct user name and email address for the repo
